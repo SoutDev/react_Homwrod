@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #757676;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 1rem;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.maincontant {
+    background-color: #757676;
+}
+
+.maincontant-con {
+    display: flex;
+}
+
+.maincontant-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontant-info h3 {
+    font-size: 2rem;
+}
+
+.maincontant-con p {
+    margin: 1rem;
+}
+
+.maincontant-box {
+    display: flex;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #666666;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.maincontant-box p {
+    width: 100%;
+    padding: 2rem;
+}
+
+.maincontant-box p {
+    font-size: 2rem;
+}
+
+.maincontant-box p {
+    margin: 1rem;
+}
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #757676;
+}
+
+.container1 {
+    display: flex;
+}
+
+.sox {
+    padding: 4rem;/*Padding คือช่องว่างระหว่างเส้นขอบและเนื้ อหา*/
+    font-size: 2rem;/*ຄະໜາດ font */
+    width: 1000px;/* ความกว้าง*/
+    height: 200px;/*ความสูง */
+    background-color: #757676;/*ສີພື້ນຫຼັງ*/
+    margin: 10px;/*ໄລຍະຂອບ*/
+    margin-left: 30px;/*คือ เว้นระยะขอบขวา(ด้านใน)*/
+    margin-right: 20px;/*คือ เว้นระยะขอบซ้าย(ด้านใน)*/
+}
+
+.container2 {
+    display: flex;
+}
+
+.pox {
+    padding: 4rem;/*Padding คือช่องว่างระหว่างเส้นขอบและเนื้ อหา*/
+    font-size: 2rem;/*ຄະໜາດ font */
+    width: 1000px;
+    height: 200px;
+    background-color: #757676;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.container3 {
+    display: flex;
+}
+
+.tox {
+    padding: 1rem;/*Padding คือช่องว่างระหว่างเส้นขอบและเนื้ อหา*/
+    font-size: 1.5rem;
+    width: 5000px;
+    height: 50px;
+    background-color: #717171;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.menu2 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu2 li {
+    margin: 1rem;
+}
+
+.menu2 li a {
+    color: black;
+    text-decoration: none;
+}
